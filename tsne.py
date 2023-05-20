@@ -2,7 +2,7 @@ import numpy as np
 
 
 class tSNE:
-    def __init__(self, n_components, perplexity=30, learning_rate=200, num_iterations=1000, momentum=0.9):
+    def __init__(self, n_components=2, perplexity=30, learning_rate=200, num_iterations=1000, momentum=0.5):
         self.n_components = n_components
         self.perplexity = perplexity
         self.learning_rate = learning_rate
